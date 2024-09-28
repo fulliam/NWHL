@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "esnext"],
+    "jsx": "react",
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@styles/*": ["src/assets/styles/*"],
+      "@utils/*": ["src/utils/*"],
+      "@pages/*": ["src/pages/*"]
+    }
+  },
+  "extends": "@react-native/typescript-config/tsconfig.json"
+}
